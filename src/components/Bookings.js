@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Bookings = () => {
     return (
-        <div className="bookings">
+        <div className="form-container">
             <h1>Booking Page</h1>
             <form>
                 <label htmlFor="name">Your name:</label><br />
