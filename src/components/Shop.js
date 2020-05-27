@@ -18,6 +18,7 @@ class Shop extends Component {
                 {this.state.items.map((item) =>
                     <Card
                         key={item.id}
+                        id={item.id}
                         image={"http://localhost:1337" + item.image.url}
                         title={item.title}
                         price={item.price}

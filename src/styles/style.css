@@ -83,6 +83,23 @@ button:hover {
   width: 100%;
 }
 
+.userpage {
+  background: white;
+  margin: 5%;
+  padding: 3%;
+}
+
+.product-container {
+  background: #dddddd;
+  margin-bottom: 2%;
+  width: 50%;
+  border: 2px solid black;
+}
+
+.product-container h3 {
+  font-weight: 800;
+}
+
 nav {
   background: #2e2e2e;
   min-height: 10vh;
