@@ -6,6 +6,8 @@ import "firebase/auth";
 // npm i -g firebase-tools paketet 
 // npm i firebase
 //....AIzaSyApkZahEANZ9nbjQa3Lu_MY6etuB_BAJmQ
+
+require('dotenv').config()
 const firebaseConfig = {
     apiKey: "AIzaSyBQpFdJ3CGxq1uM1NAziFkZ_wDjaye61PY",
     authDomain: "klassprojekt-64468.firebaseapp.com",
