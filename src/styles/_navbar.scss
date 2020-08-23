@@ -18,9 +18,16 @@ nav {
    list-style: none;
    font-size: 22px;
    font-weight: 600;
-}
 
-li {
+   li {
    color: $color-light;
    margin-left: 50px;
+   }
+}
+
+.login-links {
+      li {
+         color: rgb(0, 110, 255);
+         display: flex;
+      }
 }

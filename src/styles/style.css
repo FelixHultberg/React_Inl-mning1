@@ -17,6 +17,26 @@ button:hover {
   background: #2e2e2e;
 }
 
+.form-container {
+  margin: 2%;
+}
+
+.form-container h1 {
+  margin-bottom: 5%;
+}
+
+.form-container form label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form-container form input {
+  width: 50%;
+  height: 5vh;
+  margin-bottom: 2vh;
+  font-size: 1.8rem;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -81,30 +101,47 @@ nav {
   font-weight: 600;
 }
 
-li {
+.navbar-links li {
   color: #e9e9e9;
   margin-left: 50px;
 }
 
+.login-links li {
+  color: #006eff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .card-container {
-  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card {
   background: white;
   width: 320px;
-  height: 400px;
   border-radius: 5px;
   -webkit-box-shadow: 10px 10px 20px -2px rgba(0, 0, 0, 0.59);
           box-shadow: 10px 10px 20px -2px rgba(0, 0, 0, 0.59);
+  margin: 5% 2.5% 2% 2.5%;
 }
 
 .card img {
   border-radius: 5px 5px 0 0;
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 150px;
 }
 
 .card-info {
-  height: 200px;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,12 +155,11 @@ li {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding-bottom: 15px;
   cursor: default;
 }
 
 .card-info h5 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .card-book {
@@ -133,7 +169,6 @@ li {
 }
 
 .card-book div {
-  background: lightgray;
   height: 45px;
   width: 110px;
   display: -webkit-box;
@@ -150,7 +185,8 @@ li {
 }
 
 .card-book div p {
-  font-size: 1.2rem;
+  color: #535353;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
